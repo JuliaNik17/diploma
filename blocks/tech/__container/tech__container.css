@@ -1,0 +1,7 @@
+.tech__container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 192px;
+    margin-right: 230px;
+    justify-content: space-evenly;
+}

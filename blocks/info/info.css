@@ -1,0 +1,10 @@
+@import url(../info/__title/info__title.css);
+@import url(../info/__text/info__text.css);
+
+.info {
+    margin-top: 80px;
+    margin-left: 104px;
+    margin-bottom: 94px;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}

@@ -1,0 +1,13 @@
+@import url(../__pair/__pair_date/table__pair_date.css);
+@import url(__pair_rectangle-one/table__pair_rectangle-one.css);
+@import url(__pair_rectangle-two/table__pair_rectangle-two.css);
+@import url(__pair_rectangle-three/table__pair_rectangle-three.css);
+@import url(__pair_rectangle-four/table__pair_rectangle-four.css);
+@import url(__pair_rectangle-five/table__pair_rectangle-five.css);
+@import url(__pair_rectangle-six/table__pair_rectangle-six.css);
+@import url(__pair_rectangle-seven/table__pair_rectangle-seven.css);
+
+.table__pair {
+    display: flex;
+    flex-direction: row;
+}

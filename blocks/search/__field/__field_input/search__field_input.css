@@ -1,0 +1,12 @@
+.search__field_input {
+    width: 376px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #B6BCBF;
+    margin-left: 24px;
+    border: 0;
+}

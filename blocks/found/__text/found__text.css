@@ -1,0 +1,8 @@
+.found__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 80px 130px 64px 104px;
+    flex-direction: row;
+}

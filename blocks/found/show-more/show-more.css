@@ -1,0 +1,14 @@
+.show-more {
+    width: 288px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border-radius: 80px;
+    border-style: none;
+    margin: 48px 576px 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+}

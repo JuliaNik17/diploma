@@ -1,0 +1,11 @@
+@import url(../table/__title/table__title.css);
+@import url(../table/__names/table__names.css);
+@import url(../table/__line/table__line.css);
+@import url(../table/__numbers/table__numbers.css);
+@import url(../table/__pair/table__pair.css);
+
+.table {
+    width: 100%;
+    background-color: #F5F6F7;
+    padding: 80px 104px;
+}

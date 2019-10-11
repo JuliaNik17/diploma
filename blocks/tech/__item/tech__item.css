@@ -1,0 +1,8 @@
+@import url(../__item/__name/tech__name.css);
+@import url(../__item/__image/tech__image.css);
+
+.tech__item {
+    width: 120px;
+    margin: 93px 36px 97px;
+    align-items: center;
+}

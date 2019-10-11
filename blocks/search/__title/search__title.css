@@ -1,0 +1,14 @@
+.search__title {
+    width: 608px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 416px 32px;
+    flex-shrink: 0;
+    color: #FFFFFF;
+}

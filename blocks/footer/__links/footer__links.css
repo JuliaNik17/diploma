@@ -1,0 +1,13 @@
+@import url(../__links/__link/footer__link.css);
+
+.footer__links {
+    width: 404px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-left: 237px;
+    margin-top: 30px;
+}

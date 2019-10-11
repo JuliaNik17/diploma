@@ -1,0 +1,12 @@
+@import url(../../node_modules/@glidejs/glide/dist/css/glide.core.min.css);
+@import url(../../node_modules/@glidejs/glide/dist/css/glide.theme.min.css);
+
+.glide__slide {
+    width: 400px;
+    border-radius: 16px;
+}
+
+.glide__card {
+    width: 400px;
+    border-radius: 16px;
+}

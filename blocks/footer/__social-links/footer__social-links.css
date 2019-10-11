@@ -1,0 +1,11 @@
+@import url(../__social-links/__social-link/footer__social-link.css);
+
+.footer__social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-inline-start: 0;
+    /*margin-right: 106px;*/
+    margin-top: 30px;
+}

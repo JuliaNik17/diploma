@@ -1,0 +1,10 @@
+.header__title_black {
+    color: #1A1B22;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    width: 200px;
+    margin-left: 104px;
+}

@@ -1,0 +1,9 @@
+@import url(../__pages/__page/header__page.css);
+
+.header__pages {
+    display: flex;
+    width: 171px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 101px;
+}

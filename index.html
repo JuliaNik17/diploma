@@ -1,16 +1,124 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <link rel="icon" href="images/favicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NewsAnalyzer</title>
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+<!--    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">-->
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 <header class="header">
-    <img src="">
+    <h2 class="header__title_white">NewsAnalyzer</h2>
+    <div class="header__pages">
+        <div class="header__page">
+            <h2 class="header__page_title-withe">Главная</h2>
+            <div class="header__page_line-withe"></div>
+        </div>
+        <a href="about.html" class="header__link">О проекте</a>
+    </div>
 </header>
+
+<main class="content">
+    <div class="search">
+        <h2 class="search__title">Что в мире творится?</h2>
+        <p class="search__text">Введите в поиске любую тему и узнайте, насколько популярной она была в носотях за прошедшую неделю.</p>
+        <div class="search__field">
+            <input type="text" class="search__field_input" placeholder="Введите тему новости">
+            <button class="search__field_button">Искать</button>
+        </div>
+        <div class="search__image"><img src="images/georgia-de-lotz--UsJoNxLaNo-unsplash.png" class="search__cover" alt="фото"></div>
+    </div>
+
+    <div class="preloader">
+        <i class="preloader__circle"></i>
+        <p class="preloader__text">Идет поиск новостей...</p>
+    </div>
+
+    <div class="not-found">
+        <img src="images/not-found_v1.png" class="not-found__pic">
+        <h2 class="not-found__title">Ничего не найдено</h2>
+        <p class="not-found__text">К сожалению по вашему запросу ничего не найдено.</p>
+    </div>
+
+    <div class="found">
+        <div class="found__text">
+            <h2 class="found__title">Результаты поиска</h2>
+            <a href="analytics.html" class="found__link">Посмотреть аналитику &gt;</a>
+        </div>
+        <div class="found__cards">
+            <div class="card">
+                <img src="images/image_08.png" class="card__image" alt="фото">
+                <p class="card__date">2 августа, 2019</p>
+                <h2 class="card__title">Национальное достояние – парки</h2>
+                <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                <p class="card__source">Лента.ру</p>
+            </div>
+            <div class="card">
+                <img src="images/image_04.png" class="card__image" alt="фото">
+                <p class="card__date">2 августа, 2019</p>
+                <h2 class="card__title">Лесные огоньки: история одной фотографии</h2>
+                <p class="card__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного
+                    из местных чудес природы.</p>
+                <p class="card__source">Медуза</p>
+            </div>
+            <div class="card">
+                <img src="images/image_07.png" class="card__image" alt="фото">
+                <p class="card__date">2 августа, 2019</p>
+                <h2 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h2>
+                <p class="card__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
+                <p class="card__source">Риа</p>
+            </div>
+            <div class="card">
+                <img src="images/image_06.png" class="card__image" alt="фото">
+                <p class="card__date">2 августа, 2019</p>
+                <h2 class="card__title">Национальное достояние – парки</h2>
+                <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                <p class="card__source">Дзен</p>
+            </div>
+            <div class="card">
+                <img src="images/image_01.png" class="card__image" alt="фото">
+                <p class="card__date">2 августа, 2019</p>
+                <h2 class="card__title">Лесные огоньки: история одной фотографии</h2>
+                <p class="card__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного
+                    из местных чудес природы.</p>
+                <p class="card__source">Афиша</p>
+            </div>
+            <div class="card">
+                <img src="images/image_05.png" class="card__image" alt="фото">
+                <p class="card__date">2 августа, 2019</p>
+                <h2 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h2>
+                <p class="card__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
+                <p class="card__source">Медиазона</p>
+            </div>
+        </div>
+        <button class="show-more">Показать еще</button>
+    </div>
+
+    <div class="author">
+        <img src="images/photo.jpg" class="author__image" alt="фото автора">
+        <div class="author__info">
+            <h2 class="author__title">Об авторе</h2>
+            <p class="author__text">Юлия Николаева. Начинающий фронтенд-разработчик. Владею HTML, CSS, Java Script, Webpack, Git, адаптивной кроссбраузерной версткой.</p>
+            <p class="author__text">За время обучения в Яндекс.Практикуме научилась оценивать объем работы и время на выполнение этой работы. Все спринты были сделаны в установленный срок. Научилась работать с макетом в Figma, общаться с коллегами в Slack. </p>
+            <p class="author__text">А главное: ни когда не сдаваться. Нет не разрешимых задач, есть не изученный материал!</p>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <p class="footer__copyright">&copy; 2019 Supersite</p>
+    <ul class="footer__links">
+        <li><a href="index.html" class="footer__link">Главная</a></li>
+        <li><a href="about.html" class="footer__link">О проекте</a></li>
+        <li><a href="https://praktikum.yandex.ru/frontend" target="_blank" class="footer__link">Яндекс.Практикум</a></li>
+    </ul>
+    <ul class="footer__social-links">
+        <li><a href="https://github.com/JuliaNik17" target="_blank" class="footer__social-link_gh"><img src="images/github.png" alt="GitHub icon"></a></li>
+        <li><a href="https://www.facebook.com/juli.shcherbinina" target="_blank" class="footer__social-link_fb"><img src="images/fb.png" alt="fb icon"></a></li>
+    </ul>
+</footer>
     <script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
 </html>

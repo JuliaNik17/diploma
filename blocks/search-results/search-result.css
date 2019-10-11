@@ -1,0 +1,10 @@
+@import url(../search-results/__nav/search-result__nav.css);
+@import url(../search-results/__link/search-result__link.css);
+@import url(../search-results/__title/search-result__title.css);
+@import url(../search-results/__counter/search-result__counter.css);
+@import url(../search-results/__ment/search-result__ment.css);
+
+.search-result {
+    width: 100%;
+    padding: 0 104px 80px;
+}

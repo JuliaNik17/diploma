@@ -1,0 +1,23 @@
+.table__names {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.table__name_date {
+    flex-wrap: wrap;
+    width: 54px;
+    height: 20px;
+    margin-right: 50px;
+}

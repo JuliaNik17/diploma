@@ -1,0 +1,45 @@
+@import url(vendor/normalize.css);
+@import url(blocks/header/header.css);
+@import url(blocks/search/search.css);
+@import url(blocks/glide/glide.css);
+/*@import url(node_modules/@glidejs/glide/dist/css/glide.core.min.css);*/
+/*@import url(node_modules/@glidejs/glide/dist/css/glide.theme.min.css);*/
+@import url(blocks/preloader/preloader.css);
+@import url(blocks/not-found/not-found.css);
+@import url(blocks/found/found.css);
+@import url(blocks/author/author.css);
+@import url(blocks/footer/footer.css);
+@import url(blocks/info/info.css);
+@import url(blocks/tech/tech.css);
+@import url(blocks/comment/comment.css);
+@import url(blocks/search-results/search-result.css);
+@import url(blocks/table/table.css);
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("fonts/roboto-regular-webfont.woff");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("fonts/roboto-medium-webfont.woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url("fonts/robotoslab-regular-webfont.woff");
+    font-weight: normal;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    background-color: #FFFFFF;
+    color: #1A1B22;
+}
+
+
+
