@@ -1,5 +1,6 @@
 .preloader__text {
-    font-family: 'Roboto';
+    width: 280px;
+    /*font-family: 'Roboto', serif;*/
     font-style: normal;
     font-weight: normal;
     font-size: 18px;

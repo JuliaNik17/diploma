@@ -7,6 +7,7 @@
     color: #B6BCBF;
     text-decoration: none;
     flex-shrink: 0;
+    margin-left: 34px;
 }
 
 .header__link:hover {
