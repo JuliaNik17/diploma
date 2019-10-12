@@ -1,12 +1,10 @@
 @import url(../../node_modules/@glidejs/glide/dist/css/glide.core.min.css);
 @import url(../../node_modules/@glidejs/glide/dist/css/glide.theme.min.css);
+@import url(../glide/__card/glide__card.css);
+@import url(__arrow/glide__arrow.css);
+@import url(__bullets/glide__billets.css);
 
 .glide__slide {
-    width: 400px;
-    border-radius: 16px;
-}
-
-.glide__card {
     width: 400px;
     border-radius: 16px;
 }

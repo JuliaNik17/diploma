@@ -4,4 +4,18 @@
     background-color: #2F71E5;
     color: #FFFFFF;
     margin-top: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1439px) {
+    .table__pair_rectangle-five {
+        width: 35%;
+    }
 }

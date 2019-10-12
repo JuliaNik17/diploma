@@ -1,0 +1,12 @@
+.glide__bullet {
+    background-color: #D1D2D6;
+}
+
+.glide__bullets {
+    position: relative;
+    margin-top: 48px;
+}
+
+.glide__bullet--active {
+    background-color: #1A1B22;
+}

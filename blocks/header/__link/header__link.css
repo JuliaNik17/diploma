@@ -9,6 +9,10 @@
     flex-shrink: 0;
 }
 
+.header__link:hover {
+    color: #FFFFFF;
+}
+
 .header__link_a {
     font-family: 'Roboto';
     font-style: normal;

@@ -19,3 +19,9 @@
     margin-top: 8px;
     margin-bottom: 16px;
 }
+
+@media screen and (max-width: 1439px) {
+    .table__numbers {
+        width: calc(100% - 104px*3);
+    }
+}

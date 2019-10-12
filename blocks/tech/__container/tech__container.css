@@ -5,3 +5,10 @@
     margin-right: 230px;
     justify-content: space-evenly;
 }
+
+@media screen and (max-width: 1439px) {
+    .tech__container {
+        margin-left: 100px;
+        margin-right: 162px;
+    }
+}

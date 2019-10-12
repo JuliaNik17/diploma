@@ -14,7 +14,7 @@
 <header class="header__black">
     <p class="header__title_black">NewsAnalyzer</p>
     <div class="header__pages">
-        <a href="index.html" class="header__link">Главная</a>
+        <a href="index.html" class="header__link_a">Главная</a>
         <div class="header__page">
             <p class="header__page__title-black">О проекте</p>
             <div class="header__page_line-black"></div>
@@ -70,26 +70,31 @@
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                     <li class="glide__slide">
+                        <div class="glide__card">
                             <p class="glide__card_date">14 августа, 2019</p>
+                            <img src="images/image-01.png" class="glide__card_pic" alt="аватар">
                             <h3 class="glide__card_name">Антон Долинин</h3>
                             <p class="glide__card_email">anton@yandex.ru</p>
                             <p class="glide__card_text">Emmet (formerly Zen Coding) is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
+                        </div>
                     </li>
                     <li class="glide__slide">
                         <div class="glide__card">
                             <p class="glide__card_date">14 августа, 2019</p>
+                            <img src="images/image-04.png" class="glide__card_pic" alt="аватар">
                             <h3 class="glide__card_name">Мария Фёдорова</h3>
                             <p class="glide__card_email">mariiifed@yandex.ru</p>
                             <p class="glide__card_text">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools > Plugins > Available plugins   and find and install Emmet plugin.</p>
                         </div>
                     </li>
                     <li class="glide__slide">
-<!--                        <div class="glide__card">-->
+                        <div class="glide__card">
                             <p class="glide__card_date">14 августа, 2019</p>
+                            <img src="images/image-03.png" class="glide__card_pic" alt="аватар">
                             <h3 class="glide__card_name">Инга Иванова</h3>
                             <p class="glide__card_email">ingaiva@yandex.ru</p>
                             <p class="glide__card_text">With Emmet, you can type CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb...</p>
-<!--                        </div>-->
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -120,10 +125,11 @@
 </footer>
 <!--    <script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>-->
 <script type="module" src="index.js"></script>
-<!--<script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>-->
+<script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 
-<!--<script>-->
-<!--    new Glide('.glide').mount()-->
-<!--</script>-->
+<script>
+    new Glide('.glide', {perView:3, focusAt: 'center', type:'carousel', peek:88, gap:16}).mount()
+
+</script>
 </body>
 </html>

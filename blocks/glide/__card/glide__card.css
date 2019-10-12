@@ -1,0 +1,15 @@
+@import url(__card_date/glide__card_date.css);
+@import url(__card_name/glide__card_name.css);
+@import url(__card_email/glide__card_email.css);
+@import url(__card_text/glide__card_text.css);
+@import url(__card_pic/glide__card_pic.css);
+
+.glide__card {
+    width: 400px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 48px;
+}

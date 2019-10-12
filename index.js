@@ -1,6 +1,6 @@
 
 
-// import "./index.css";
+import "./index.css";
 import Glide from '@glidejs/glide'
 
 new Glide('.glide').mount()
