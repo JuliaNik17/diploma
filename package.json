@@ -1,5 +1,5 @@
 {
-  "name": "JuliaNik17.github.io",
+  "name": "diploma",
   "version": "1.0.0",
   "description": "Дипломная работа: сервис для анализа происходящих в мире событий. Его задача — установить, насколько популярны в мире новости на определённую тему.",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JuliaNik17/JuliaNik17.github.io.git"
+    "url": "git+https://github.com/JuliaNik17/diploma.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JuliaNik17/JuliaNik17.github.io/issues"
+    "url": "https://github.com/JuliaNik17/diploma/issues"
   },
-  "homepage": "https://github.com/JuliaNik17/JuliaNik17.github.io",
+  "homepage": "https://github.com/JuliaNik17/diploma",
   "devDependencies": {
     "@babel/cli": "^7.6.2",
     "@babel/core": "^7.6.2",
