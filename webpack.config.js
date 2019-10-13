@@ -50,7 +50,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'style.[contenthash].css'
+            filename: 'css/style.[contenthash].css'
         }),
         new OptimizeCssAssetsPlugin({
             assetNameRegExp: /\.css$/g,
@@ -65,6 +65,18 @@ module.exports = {
             hash: true,
             template: './index.html',
             filename: 'index.html'
+        }),
+        new HtmlWebpackPlugin({
+            inject: false,
+            hash: true,
+            template: './about.html',
+            filename: 'about.html'
+        }),
+        new HtmlWebpackPlugin({
+            inject: false,
+            hash: true,
+            template: './analytics.html',
+            filename: 'analytics.html'
         }),
         new WebpackMd5Hash(),
 
