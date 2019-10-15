@@ -1,10 +1,17 @@
-.found__link {
+.header__link_a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
+    color: #B6BCBF;
     text-decoration: none;
+    flex-shrink: 0;
+    margin-bottom: 13px;
+    margin-right: 34px;
+}
+
+.header__link_a:hover {
     color: #1A1B22;
 }
 
@@ -17,15 +24,20 @@
 }
 
 @media screen and (max-width: 1023px){
+    .header__link_a {
 
+    }
 }
 
 @media screen and (max-width: 767px){
-
+    .header__link_a {
+        font-size: 16px;
+        margin-right: 11px;
+    }
 }
 
 @media screen and (max-width: 374px) {
-    .found__link {
-        margin-left: 12px;
+    .header__link_a {
+        font-size: 14px;
     }
 }

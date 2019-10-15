@@ -29,7 +29,12 @@
             <input type="text" class="search__field_input" placeholder="Введите тему новости">
             <button class="search__field_button">Искать</button>
         </div>
-        <div class="search__image"><img src="<%=require('./images/georgia-de-lotz--UsJoNxLaNo-unsplash.png')%>" class="search__cover" alt="фото"></div>
+        <picture class="search__image">
+            <source src="<%=require('./images/cover__max.png')%>" media="(min-width: 1440px)">
+            <source src="<%=require('./images/cover__middle.png')%>" media="(min-width: 768px)">
+            <source src="<%=require('./images/cover__mini.png')%>" media="(min-width: 320px)">
+            <img src="<%=require('./images/cover__max.png')%>" alt="My default image">
+        </picture>
     </div>
 
     <div class="preloader">
@@ -46,7 +51,7 @@
     <div class="found">
         <div class="found__text">
             <h2 class="found__title">Результаты поиска</h2>
-            <a href="analytics.html" class="found__link">Посмотреть аналитику &gt;</a>
+            <a href="analytics.html" class="found__link">Посмотреть аналитику <img src="<%=require('./images/path.png')%>" alt="стрелочка" class="found__link_pic"></a>
         </div>
         <div class="found__cards">
             <div class="card">

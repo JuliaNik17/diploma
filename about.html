@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="<%=require('./images/favicon.png')%>">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NewsAnalyzer</title>
-<!--    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">-->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+<!--    <link rel="stylesheet" href="index.css">-->
     <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
     <div class="header__pages">
         <a href="index.html" class="header__link_a">Главная</a>
         <div class="header__page">
-            <p class="header__page__title-black">О проекте</p>
+            <p class="header__page_title-black">О проекте</p>
             <div class="header__page_line-black"></div>
         </div>
     </div>
@@ -36,25 +36,25 @@
         <div class="tech__container">
             <div class="tech__item">
                 <h3 class="tech__name">HTML</h3>
-                <img src="images/html.png" class="tech__image" alt="эмблема HTML">
+                <img src="<%=require('./images/html.png')%>" class="tech__image" alt="эмблема HTML">
             </div>
             <div class="tech__item">
                 <h3 class="tech__name">CSS</h3>
-                <img src="images/css.png" class="tech__image" alt="эмблема CSS">
+                <img src="<%=require('./images/css.png')%>" class="tech__image" alt="эмблема CSS">
             </div>
             <div class="tech__item">
                 <h3 class="tech__name">Java Script</h3>
-                <img src="images/js.png" class="tech__image" alt="эмблема JS">
+                <img src="<%=require('./images/js.png')%>" class="tech__image" alt="эмблема JS">
             </div>
             <div class="tech__item">
                 <h3 class="tech__name">Webpack</h3>
-                <img src="images/webpack.png" class="tech__image" alt="эмблема Webpack">
+                <img src="<%=require('./images/webpack.png')%>" class="tech__image" alt="эмблема Webpack">
             </div>
         </div>
     </div>
     <div class="author">
-        <img src="images/photo.jpg" class="author__image" alt="фото автора">
-        <div class="autor__info">
+        <img src="<%=require('./images/photo.jpg')%>" class="author__image" alt="фото автора">
+        <div class="author__info">
             <h2 class="author__title">Об авторе</h2>
             <p class="author__text">Юлия Николаева. Начинающий фронтенд-разработчик. Владею HTML, CSS, Java Script, Webpack, Git, адаптивной кроссбраузерной версткой.</p>
             <p class="author__text">За время обучения в Яндекс.Практикуме научилась оценивать объем работы и время на выполнение этой работы. Все спринты были сделаны в установленный срок. Научилась работать с макетом в Figma, общаться с коллегами в Slack. </p>
@@ -72,7 +72,7 @@
                     <li class="glide__slide">
                         <div class="glide__card">
                             <p class="glide__card_date">14 августа, 2019</p>
-                            <img src="images/image-01.png" class="glide__card_pic" alt="аватар">
+                            <img src="<%=require('./images/image-01.png')%>" class="glide__card_pic" alt="аватар">
                             <h3 class="glide__card_name">Антон Долинин</h3>
                             <p class="glide__card_email">anton@yandex.ru</p>
                             <p class="glide__card_text">Emmet (formerly Zen Coding) is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
@@ -81,7 +81,7 @@
                     <li class="glide__slide">
                         <div class="glide__card">
                             <p class="glide__card_date">14 августа, 2019</p>
-                            <img src="images/image-04.png" class="glide__card_pic" alt="аватар">
+                            <img src="<%=require('./images/image-04.png')%>" class="glide__card_pic" alt="аватар">
                             <h3 class="glide__card_name">Мария Фёдорова</h3>
                             <p class="glide__card_email">mariiifed@yandex.ru</p>
                             <p class="glide__card_text">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools > Plugins > Available plugins   and find and install Emmet plugin.</p>
@@ -90,7 +90,7 @@
                     <li class="glide__slide">
                         <div class="glide__card">
                             <p class="glide__card_date">14 августа, 2019</p>
-                            <img src="images/image-03.png" class="glide__card_pic" alt="аватар">
+                            <img src="<%=require('./images/image-03.png')%>" class="glide__card_pic" alt="аватар">
                             <h3 class="glide__card_name">Инга Иванова</h3>
                             <p class="glide__card_email">ingaiva@yandex.ru</p>
                             <p class="glide__card_text">With Emmet, you can type CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb...</p>
@@ -119,11 +119,11 @@
     <li><a href="https://praktikum.yandex.ru/frontend" target="_blank" class="footer__link">Яндекс.Практикум</a></li>
 </ul>
 <ul class="footer__social-links">
-    <li><a href="https://github.com/JuliaNik17" target="_blank" class="footer__social-link_gh"><img src="images/github.png" alt="GitHub icon"></a></li>
-    <li><a href="https://www.facebook.com/juli.shcherbinina" target="_blank" class="footer__social-link_fb"><img src="images/fb.png" alt="fb icon"></a></li>
+    <li><a href="https://github.com/JuliaNik17" target="_blank" class="footer__social-link_gh"><img src="<%=require('./images/github.png')%>" alt="GitHub icon"></a></li>
+    <li><a href="https://www.facebook.com/juli.shcherbinina" target="_blank" class="footer__social-link_fb"><img src="<%=require('./images/fb.png')%>" alt="fb icon"></a></li>
 </ul>
 </footer>
-<!--    <script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>-->
+    <script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 <script type="module" src="index.js"></script>
 <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 

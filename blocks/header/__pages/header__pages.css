@@ -2,8 +2,40 @@
 
 .header__pages {
     display: flex;
-    width: 171px;
     justify-content: space-between;
     align-items: center;
     margin-right: 101px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1439px) {
+    .header__pages {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+    .header__pages {
+        margin-right: 42px;
+        margin-top: 22px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .header__pages {
+        margin-right: 16px;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .header__pages {
+        margin-right: 14px;
+        margin-left: 25px;
+    }
 }

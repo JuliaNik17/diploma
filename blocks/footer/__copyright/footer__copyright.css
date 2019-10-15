@@ -1,5 +1,5 @@
 .footer__copyright {
-    width: 200px;
+    /*width: 200px;*/
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
@@ -7,5 +7,41 @@
     line-height: 22px;
     color: #B6BCBF;
     margin-top: 33px;
-    margin-left: 104px;
+    /*margin-left: 104px;*/
+}
+
+@media screen and (max-width: 1439px) {
+    .footer__copyright {
+        /*margin-left: 96px;*/
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .footer__copyright {
+        /*margin-left: 48px;*/
+    }
+
+}
+
+@media screen and (max-width: 1023px){
+    .footer__copyright {
+        margin-top: 24px;
+        /*margin-left: 40px;*/
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .footer__copyright {
+        position: absolute;
+        top: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__copyright {
+        position: absolute;
+        top: 180px;
+        left: 16px;
+    }
 }

@@ -5,15 +5,6 @@
 @import url(__image/card__image.css);
 @import url(card/card.css);
 
-/*.found__cards {*/
-/*    width: 1440px;*/
-/*    display: grid;*/
-/*    margin: 0 104px;*/
-/*    grid-template-columns: repeat(3, 400px);*/
-/*    grid-template-rows: repeat(2, 576px);*/
-/*    grid-gap: 16px;*/
-/*}*/
-
 .found__cards {
     width: 1232px;
     display: flex;
@@ -22,4 +13,34 @@
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+    .found__cards {
+        width: calc(100% - 140px);
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .found__cards {
+        width: calc(100% - 96px);
+    }
+
+}
+
+@media screen and (max-width: 1023px){
+    .found__cards {
+        width: calc(100% - 80px);
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 374px) {
+    .found__cards {
+        width: 100%;
+    }
 }
