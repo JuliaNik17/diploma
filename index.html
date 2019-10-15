@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NewsAnalyzer</title>
-    <link rel="stylesheet" href="css/style.1ad208f5fe422fd2f401.css?a148c2a046909449c66d">
+    <link rel="stylesheet" href="css/style.183ecb4737c485ff634f.css?b3daff42156e1a04f833">
 <!--    <link rel="stylesheet" href="index.css">-->
 </head>
 <body>
@@ -29,7 +29,12 @@
             <input type="text" class="search__field_input" placeholder="Введите тему новости">
             <button class="search__field_button">Искать</button>
         </div>
-        <div class="search__image"><img src="11ddd276c4dc20414ecf81d26f8d55d8.png" class="search__cover" alt="фото"></div>
+        <picture class="search__image">
+            <source src="11ddd276c4dc20414ecf81d26f8d55d8.png" media="(min-width: 1440px)">
+            <source src="98cd4fe7297225b28f087badc8d2475a.png" media="(min-width: 768px)">
+            <source src="892bce89c1f7059576534eb69225d93a.png" media="(min-width: 320px)">
+            <img src="11ddd276c4dc20414ecf81d26f8d55d8.png" alt="My default image">
+        </picture>
     </div>
 
     <div class="preloader">
@@ -46,7 +51,7 @@
     <div class="found">
         <div class="found__text">
             <h2 class="found__title">Результаты поиска</h2>
-            <a href="analytics.html" class="found__link">Посмотреть аналитику &gt;</a>
+            <a href="analytics.html" class="found__link">Посмотреть аналитику <img src="2c88565d3b784508ea3c66ccb63ae7fc.png" alt="стрелочка" class="found__link_pic"></a>
         </div>
         <div class="found__cards">
             <div class="card">
@@ -119,6 +124,6 @@
         <li><a href="https://www.facebook.com/juli.shcherbinina" target="_blank" class="footer__social-link_fb"><img src="5dbe777780d64ef38e1e63348807f93b.png" alt="fb icon"></a></li>
     </ul>
 </footer>
-    <script type="module" src="main.83c8bca1a5ad16e5cf99.js?a148c2a046909449c66d"></script>
+    <script type="module" src="main.83c8bca1a5ad16e5cf99.js?b3daff42156e1a04f833"></script>
 </body>
 </html>
