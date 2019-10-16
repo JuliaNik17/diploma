@@ -9,6 +9,28 @@
 
 @media screen and (max-width: 1439px) {
     .tech__item {
-        width: 100px;
+        /*width: 100px;*/
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .tech__item {
+        margin: 93px 16px 97px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+
+}
+
+@media screen and (max-width: 767px){
+    .tech__item {
+        margin: 0 0 41px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .tech__item {
+        margin: 0 0 41px;
     }
 }

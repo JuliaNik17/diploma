@@ -19,3 +19,9 @@
         width: 55.5%;
     }
 }
+
+@media screen and (max-width: 374px) {
+    .table__pair_rectangle-six {
+        width: 68%;
+    }
+}

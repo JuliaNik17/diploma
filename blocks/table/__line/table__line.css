@@ -8,3 +8,27 @@
         width: calc(100% - 104px*2);
     }
 }
+
+@media screen and (max-width: 1279px) {
+    .table__line {
+        width: calc(100% - 160px);
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .table__line {
+        width: calc(100% - 80px);
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+
+@media screen and (max-width: 374px) {
+    .table__line {
+        width: calc(100% - 32px);
+    }
+}

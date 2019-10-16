@@ -14,8 +14,9 @@
 
 @media screen and (max-width: 1439px) {
     .search__title {
-        font-size: 50px;
-        line-height: 55px;
+        /*font-size: 50px;*/
+        /*line-height: 55px;*/
+        margin: 80px 208px 32px;
     }
 }
 
@@ -28,7 +29,9 @@
 }
 
 @media screen and (max-width: 767px) {
-   .search__title {}
+   .search__title {
+       margin: 30px 16px 56px 19px;
+   }
 }
 
 @media screen and (max-width: 374px) {

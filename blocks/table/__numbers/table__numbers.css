@@ -25,3 +25,27 @@
         width: calc(100% - 104px*3);
     }
 }
+
+@media screen and (max-width: 1279px) {
+    .table__numbers {
+        width: calc(100% - 264px);
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .table__numbers {
+        width: calc(100% - 184px);
+    }
+}
+
+@media screen and (max-width: 767px){
+   .table__numbers {
+       color: #F5F6F7;
+       margin: 0 0;
+       width: 0;
+   }
+}
+
+@media screen and (max-width: 374px) {
+
+}

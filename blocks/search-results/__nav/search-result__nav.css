@@ -8,3 +8,12 @@
     margin-top: 40px;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 374px) {
+    .search-result__nav {
+        z-index: -1;
+        margin: 0 0;
+        color: #FFFFFF;
+        height: 0;
+    }
+}

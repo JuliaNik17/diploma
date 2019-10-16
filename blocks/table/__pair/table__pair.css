@@ -11,3 +11,29 @@
     display: flex;
     flex-direction: row;
 }
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+    .table__pair {
+        /*margin-bottom: 56px;*/
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+
+@media screen and (max-width: 374px) {
+    .table__pair {
+        /*margin-bottom: 24px;*/
+    }
+}
