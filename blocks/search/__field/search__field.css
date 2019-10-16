@@ -2,22 +2,19 @@
 @import url(../__field/__field_button/search__field_button.css);
 
 .search__field {
-    /*width: 608px;*/
-    /*height: 64px;*/
     background-color: #FFFFFF;
-    /*border: 1px solid #D1D2D6;*/
     box-sizing: border-box;
     backdrop-filter: blur(8px);
     border-radius: 100px;
-    margin: 0 auto 80px;
+    margin: 0 auto 65px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1161px) {
     .search__field {
-        margin-bottom: 75px;
+        margin-bottom: 50px;
     }
 }
 
@@ -31,7 +28,7 @@
     .search__field {
         width: calc(100% - 64px);
         flex-direction: column;
-        margin-bottom: 32px;
+        margin-bottom: 0;
         background-color: unset;
         border: unset;
     }

@@ -5,6 +5,8 @@
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 23px;
 }
 
 @media screen and (max-width: 1439px) {

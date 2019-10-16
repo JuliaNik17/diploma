@@ -50,39 +50,21 @@ body {
     flex-direction: column;
 }
 
+
+@media screen and (min-width: 1441px) {
+    body {
+        width: 1440px;
+        overflow: hidden;
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+    }
+}
+
+
 @media screen and (max-width: 1439px) {
     body {
         width: 100%;
         margin: 0 0;
-    }
-}
-
-@media screen and (max-width: 1279px) {
-    body {
-        /*width: 1024px;*/
-        /*margin: 0 auto;*/
-    }
-
-}
-
-@media screen and (max-width: 1023px){
-    body {
-        /*width: 768px;*/
-        /*margin: 0 auto;*/
-    }
-
-}
-
-@media screen and (max-width: 767px){
-    body {
-        /*width: 375px;*/
-        /*margin: 0 auto;*/
-    }
-}
-
-@media screen and (max-width: 374px) {
-    body {
-        /*width: 320px;*/
-        /*margin: 0 auto;*/
     }
 }
