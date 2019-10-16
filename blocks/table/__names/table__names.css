@@ -17,7 +17,35 @@
 
 .table__name_date {
     flex-wrap: wrap;
-    width: 54px;
-    height: 20px;
-    margin-right: 50px;
+    /*width: 4%;*/
+    width: 104px;
+    /*margin-right: 50px;*/
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+
+
+}
+
+@media screen and (max-width: 767px){
+    .table__name_date {
+        /*width: 64px;*/
+        width: 20%;
+        margin-bottom: 8px;
+    }
+}
+
+
+@media screen and (max-width: 374px) {
+    .table__names {
+
+    }
 }

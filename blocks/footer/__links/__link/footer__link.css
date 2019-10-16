@@ -8,3 +8,30 @@
     text-align: center;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+
+}
+
+@media screen and (max-width: 1023px){
+    .footer__link {
+        /*font-size: 14px;*/
+        /*line-height: 22px;*/
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 600px) {
+    .footer__link {
+        /*margin-bottom: 25px;*/
+    }
+}

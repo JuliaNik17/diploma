@@ -10,3 +10,17 @@
 .glide__bullet--active {
     background-color: #1A1B22;
 }
+
+@media screen and (max-width: 767px) {
+    .glide__bullets {
+        margin-top: 16px;
+        margin-bottom: 120px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .glide__bullets {
+        margin-top: 16px;
+        margin-bottom: 96px;
+    }
+}

@@ -2,3 +2,28 @@
     text-decoration: none;
     color: #1A1B22;
 }
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 374px) {
+    .search-result__link {
+        color: #FFFFFF;
+        z-index: -1;
+        height: 0;
+    }
+}

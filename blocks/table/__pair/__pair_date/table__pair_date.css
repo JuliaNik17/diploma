@@ -7,3 +7,33 @@
     margin-top: -20px;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+    .table__pair_date {
+        /*width: ;*/
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .table__pair_date {
+        /*width: 64px;*/
+        width: 20%;
+        font-size: 18px;
+        line-height: 48px;
+        margin-top: -10px;
+    }
+}
+
+
+@media screen and (max-width: 374px) {
+
+}

@@ -2,23 +2,18 @@
 @import url(__title/header__title_white.css);
 @import url(../header/__pages/header__pages.css);
 @import url(../header/__link/header__link.css);
+@import url(__link_a/header__link_a.css);
 
 header {
-    /*width: 1440px;*/
     width: 100%;
-    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*margin-right: 101px;*/
-    /*margin-left: 104px;*/
     box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2)
 }
 
 .header__black {
-    /*width: 1440px;*/
     width: 100%;
-    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;

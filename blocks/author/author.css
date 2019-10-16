@@ -7,3 +7,27 @@
     flex-direction: row;
     width: 100%;
 }
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+
+}
+
+@media screen and (max-width: 767px){
+    .author {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 374px) {
+   .author {
+       flex-direction: column;
+   }
+}

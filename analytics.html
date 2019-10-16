@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="<%=require('./images/favicon.png')%>">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NewsAnalyzer</title>
-    <!--    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">-->
-    <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
 </head>
 <body>
 <header class="header__black">
@@ -17,7 +16,7 @@
         <a href="about.html" class="header__link_a">О проекте</a>
     </div>
 </header>
-<body>
+
 <main class="content">
     <div class="search-result">
         <p class="search-result__nav"> <a href="index.html" class="search-result__link">Главная</a>/Аналитика</p>
@@ -86,11 +85,11 @@
         <li><a href="https://praktikum.yandex.ru/frontend" target="_blank" class="footer__link">Яндекс.Практикум</a></li>
     </ul>
     <ul class="footer__social-links">
-        <li><a href="https://github.com/JuliaNik17" target="_blank" class="footer__social-link_gh"><img src="images/github.png" alt="GitHub icon"></a></li>
-        <li><a href="https://www.facebook.com/juli.shcherbinina" target="_blank" class="footer__social-link_fb"><img src="images/fb.png" alt="fb icon"></a></li>
+        <li><a href="https://github.com/JuliaNik17" target="_blank" class="footer__social-link_gh"><img src="<%=require('./images/github.png')%>" alt="GitHub icon"></a></li>
+        <li><a href="https://www.facebook.com/juli.shcherbinina" target="_blank" class="footer__social-link_fb"><img src="<%=require('./images/fb.png')%>" alt="fb icon"></a></li>
     </ul>
 </footer>
 <script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
-<script type="module" src="index.js"></script
+<script type="module" src="index.js"></script>
 </body>
 </html>

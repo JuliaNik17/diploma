@@ -12,3 +12,40 @@
         margin-right: 162px;
     }
 }
+
+@media screen and (max-width: 1279px) {
+    .tech__container {
+        margin-right: 48px;
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .tech__container {
+        margin: 0 56px 54px 40px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .tech__container {
+        flex-wrap: wrap;
+        margin: 0 24px 7px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .tech__container {
+        flex-wrap: wrap;
+        margin: 0 48px 7px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .tech__container {
+        flex-wrap: wrap;
+        margin: 0 24px 7px;
+        justify-content: space-between;
+    }
+}
