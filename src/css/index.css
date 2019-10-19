@@ -1,9 +1,7 @@
-@import url(vendor/normalize.css);
+@import url(../vendor/normalize.css);
 @import url(blocks/header/header.css);
 @import url(blocks/search/search.css);
 @import url(blocks/glide/glide.css);
-/*@import url(node_modules/@glidejs/glide/dist/css/glide.core.min.css);*/
-/*@import url(node_modules/@glidejs/glide/dist/css/glide.theme.min.css);*/
 @import url(blocks/preloader/preloader.css);
 @import url(blocks/not-found/not-found.css);
 @import url(blocks/found/found.css);
@@ -17,31 +15,30 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url("fonts/roboto-regular-webfont.woff") format("woff");
+    src: url("/fonts/roboto-regular-webfont.woff") format("woff");
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url("fonts/roboto-medium-webfont.woff") format("woff");
+    src: url("/fonts/roboto-medium-webfont.woff") format("woff");
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Roboto Slab';
-    src: url("fonts/robotoslab-regular-webfont.woff") format("woff");
+    src: url("/fonts/robotoslab-regular-webfont.woff") format("woff");
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url("fonts/sourcesanspro-regular.woff") format("woff");
+    src: url("/fonts/sourcesanspro-regular.woff") format("woff");
     font-weight: normal;
 }
 
 body {
     width: 1440px;
-    /*width: 100%;*/
     margin: 0 auto;
     font-family: 'Roboto', serif;
     background-color: #FFFFFF;

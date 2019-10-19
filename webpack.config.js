@@ -8,7 +8,7 @@ const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
     entry: {
-        main: './index.js'
+        main: './src/js/index.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -29,21 +29,12 @@ module.exports = {
                     'postcss-loader'
                 ]
             },
+            {   test: /\.(png|svg|jpg|gif)$/,
+                loader: 'file-loader?name=./images/[contenthash].[ext]'
+            },
 
             {
-                test: /\.(png|svg|jpg|gif)$/,
-                use: [
-                    'file-loader'
-                ]
-            },
-            {
-                test: /\.(woff|woff2|eot|ttf|otf)$/,
-                use: [
-                    'file-loader'
-                ]
-            },
-            {
-                test: /\.(eot|ttf|woff|woff2)$/,
+                test: /\.(eot|ttf|woff|woff2|otf)$/,
                 loader: 'file-loader?name=./fonts/[name].[ext]'
             }
         ]
@@ -63,19 +54,19 @@ module.exports = {
         new HtmlWebpackPlugin({
             inject: false,
             hash: true,
-            template: './index.html',
+            template: './src/index.html',
             filename: 'index.html'
         }),
         new HtmlWebpackPlugin({
             inject: false,
             hash: true,
-            template: './about.html',
+            template: './src/about.html',
             filename: 'about.html'
         }),
         new HtmlWebpackPlugin({
             inject: false,
             hash: true,
-            template: './analytics.html',
+            template: './src/analytics.html',
             filename: 'analytics.html'
         }),
         new WebpackMd5Hash(),
