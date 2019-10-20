@@ -1,4 +1,4 @@
-@import url(../__field/__field_input/search__field_input.css);
+@import url(__input/search__input.css);
 @import url(../__field/__field_button/search__field_button.css);
 
 .search__field {

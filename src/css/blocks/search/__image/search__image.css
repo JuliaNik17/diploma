@@ -5,7 +5,6 @@
     bottom: 0;
     z-index: -1;
     margin:0 0;
-    overflow: visible;
     width: 100%;
     height: fit-content;
 
@@ -19,15 +18,13 @@
 
 @media screen and (max-width: 767px) {
     .search__image {
-        height: fit-content;
-        height: 100%;
+
     }
 }
 
 @media screen and (max-width: 374px) {
 .search__image {
-    height: 100%;
-    height: fit-content;
+
 }
 }
 

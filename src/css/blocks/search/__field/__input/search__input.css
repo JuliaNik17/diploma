@@ -1,4 +1,4 @@
-.search__field_input {
+.search__input {
     width: 376px;
     /*height: 22px;*/
     font-family: 'Roboto';
@@ -14,7 +14,7 @@
 @media screen and (max-width: 1023px) {}
 
 @media screen and (max-width: 767px) {
-    .search__field_input {
+    .search__input {
         width: calc(100% - 32px);
         margin: 0 auto 16px;
         border: 1px solid #D1D2D6;

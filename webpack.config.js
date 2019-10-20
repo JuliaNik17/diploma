@@ -4,7 +4,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const isDev = process.env.NODE_ENV === 'development';
-// const webpack = require('webpack');
 
 module.exports = {
     entry: {
@@ -12,7 +11,8 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].[chunkhash].js'
+        filename: '[name].[chunkhash].js',
+        publicPath: isDev ? '/' : '/diploma/'
     },
     module: {
         rules: [{
@@ -25,17 +25,19 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: [(isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
-                    'css-loader',
+                {
+                    loader: 'css-loader',
+                    options: {importLoaders: 1, sourceMap: true}
+                },
                     'postcss-loader'
                 ]
             },
             {   test: /\.(png|svg|jpg|gif)$/,
-                loader: 'file-loader?name=./images/[contenthash].[ext]'
+                loader: 'file-loader?name=images/[contenthash].[ext]'
             },
-
             {
                 test: /\.(eot|ttf|woff|woff2|otf)$/,
-                loader: 'file-loader?name=./fonts/[name].[ext]'
+                loader: 'file-loader?name=fonts/[name].[ext]'
             }
         ]
     },
@@ -43,6 +45,7 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: 'css/style.[contenthash].css'
         }),
+        
         new OptimizeCssAssetsPlugin({
             assetNameRegExp: /\.css$/g,
             cssProcessor: require('cssnano'),
@@ -71,9 +74,5 @@ module.exports = {
         }),
         new WebpackMd5Hash(),
 
-
-        // new webpack.DefinePlugin({
-        //     'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-        // })
     ]
 };
