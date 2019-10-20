@@ -4,9 +4,9 @@
   "description": "Дипломная работа: сервис для анализа происходящих в мире событий. Его задача — установить, насколько популярны в мире новости на определённую тему.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "dev": "webpack-dev-server --mode development --open --watch",
-    "deploy": "gh-pages -d dist"
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack --mode production",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
+    "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -43,6 +43,7 @@
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
     "babel-polyfill": "^6.26.0",
-    "core-js": "^3.1.4"
+    "core-js": "^3.1.4",
+    "cross-env": "^6.0.3"
   }
 }

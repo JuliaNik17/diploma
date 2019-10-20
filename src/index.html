@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NewsAnalyzer</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
-<!--    <link rel="stylesheet" href="index.css">-->
 </head>
 <body>
 <header class="header">
@@ -26,16 +25,10 @@
         <h2 class="search__title">Что в мире творится?</h2>
         <p class="search__text">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
         <div class="search__field">
-            <input type="text" class="search__field_input" placeholder="Введите тему новости">
-            <button class="search__field_button">Искать</button>
+            <input type="text" required name="topic" class="search__input search__input_type_topic" placeholder="Введите тему новости">
+            <button class="button search__field_button">Искать</button>
         </div>
         <img src="<%=require('./images/cover__max.png')%>" alt="image" class="search__image">
-<!--        <picture class="search__image">-->
-<!--            <source src="<%=require('./images/cover__max.png')%>" media="(min-width: 1440px)">-->
-<!--            <source src="<%=require('./images/cover__middle.png')%>" media="(max-width: 1439px)">-->
-<!--            <source src="<%=require('./images/cover__mini.png')%>" media="(max-width: 767px)">-->
-<!--            <img src="<%=require('./images/cover__max.png')%>" alt="My default image">-->
-<!--        </picture>-->
     </div>
 
     <div class="preloader">
@@ -44,7 +37,7 @@
     </div>
 
     <div class="not-found">
-        <img src="<%=require('./images/not-found_v1.png')%>" class="not-found__pic">
+        <img src="<%=require('./images/not-found_v1.png')%>" class="not-found__pic" alt="грустная лупа">
         <h2 class="not-found__title">Ничего не найдено</h2>
         <p class="not-found__text">К сожалению по вашему запросу ничего не найдено.</p>
     </div>

@@ -4,15 +4,15 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const isDev = process.env.NODE_ENV === 'development';
-// const webpack = require('webpack');
 
 module.exports = {
     entry: {
-        main: './index.js'
+        main: './src/js/index.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].[chunkhash].js'
+        filename: '[name].[chunkhash].js',
+        publicPath: isDev ? '/' : '/diploma/'
     },
     module: {
         rules: [{
@@ -25,26 +25,19 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: [(isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
-                    'css-loader',
+                {
+                    loader: 'css-loader',
+                    options: {importLoaders: 1, sourceMap: true}
+                },
                     'postcss-loader'
                 ]
             },
-
-            {
-                test: /\.(png|svg|jpg|gif)$/,
-                use: [
-                    'file-loader'
-                ]
+            {   test: /\.(png|svg|jpg|gif)$/,
+                loader: 'file-loader?name=images/[contenthash].[ext]'
             },
             {
-                test: /\.(woff|woff2|eot|ttf|otf)$/,
-                use: [
-                    'file-loader'
-                ]
-            },
-            {
-                test: /\.(eot|ttf|woff|woff2)$/,
-                loader: 'file-loader?name=./fonts/[name].[ext]'
+                test: /\.(eot|ttf|woff|woff2|otf)$/,
+                loader: 'file-loader?name=fonts/[name].[ext]'
             }
         ]
     },
@@ -52,6 +45,7 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: 'css/style.[contenthash].css'
         }),
+        
         new OptimizeCssAssetsPlugin({
             assetNameRegExp: /\.css$/g,
             cssProcessor: require('cssnano'),
@@ -63,26 +57,22 @@ module.exports = {
         new HtmlWebpackPlugin({
             inject: false,
             hash: true,
-            template: './index.html',
+            template: './src/index.html',
             filename: 'index.html'
         }),
         new HtmlWebpackPlugin({
             inject: false,
             hash: true,
-            template: './about.html',
+            template: './src/about.html',
             filename: 'about.html'
         }),
         new HtmlWebpackPlugin({
             inject: false,
             hash: true,
-            template: './analytics.html',
+            template: './src/analytics.html',
             filename: 'analytics.html'
         }),
         new WebpackMd5Hash(),
 
-
-        // new webpack.DefinePlugin({
-        //     'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-        // })
     ]
 };
