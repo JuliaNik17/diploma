@@ -1,6 +1,7 @@
 .table__line {
     border: 1px solid #1A1B22;
     width: 1232px;
+    margin: 0 104px 16px;
 }
 
 @media screen and (max-width: 1439px) {
@@ -18,6 +19,7 @@
 @media screen and (max-width: 1023px){
     .table__line {
         width: calc(100% - 80px);
+        margin: 0 40px 16px;
     }
 
 }
@@ -30,5 +32,6 @@
 @media screen and (max-width: 374px) {
     .table__line {
         width: calc(100% - 32px);
+        margin: 0 16px;
     }
 }

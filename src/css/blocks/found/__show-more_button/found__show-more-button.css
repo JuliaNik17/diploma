@@ -1,11 +1,11 @@
-.show-more {
+.found__show-more_button {
     width: 288px;
     height: 64px;
     background-color: #FFFFFF;
     border-radius: 80px;
     border-style: none;
     margin: 48px auto 80px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Serif, Arial;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -13,6 +13,7 @@
     color: #1A1B22;
 }
 
-.show-more:hover {
+.found__show-more_button:hover {
     opacity: 0.9;
+    cursor: pointer;
 }

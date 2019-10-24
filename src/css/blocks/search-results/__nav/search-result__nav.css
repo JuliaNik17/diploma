@@ -1,12 +1,17 @@
 .search-result__nav {
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial, Serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
     color: #B6BCBF;
-    margin-top: 40px;
-    margin-bottom: 0;
+    margin: 40px 624px 0 104px;
+}
+
+@media screen and (max-width: 1023px) {
+    .search-result__nav {
+        margin: 32px 16px 0 40px;
+    }
 }
 
 @media screen and (max-width: 374px) {

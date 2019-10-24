@@ -1,0 +1,61 @@
+@import url(../../vendor/normalize.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/glide/glide.css);
+@import url(../blocks/author/author.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/info/info.css);
+@import url(../blocks/tech/tech.css);
+@import url(../blocks/comment/comment.css);
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../../fonts/roboto-regular-webfont.woff") format("woff");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../../fonts/roboto-medium-webfont.woff") format("woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url("../../fonts/robotoslab-regular-webfont.woff") format("woff");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url("../../fonts/sourcesanspro-regular.woff") format("woff");
+    font-weight: normal;
+}
+
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Roboto', serif;
+    background-color: #FFFFFF;
+    color: #1A1B22;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (min-width: 1441px) {
+    body {
+        width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+    }
+}
+
+
+@media screen and (max-width: 1439px) {
+    body {
+        width: 100%;
+        margin: 0 0;
+    }
+}

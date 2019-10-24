@@ -1,11 +1,10 @@
 .search-result__ment {
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial, Serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 664px 80px 104px;
 }
 
 .search-result__ment_number {
@@ -21,7 +20,9 @@
 }
 
 @media screen and (max-width: 1023px){
-
+    .search-result__ment {
+        margin: 0 56px 40px 40px;
+    }
 
 }
 
@@ -32,5 +33,6 @@
 @media screen and (max-width: 374px) {
     .search-result__ment {
         font-size: 16px;
+        margin: 0 16px 24px;
     }
 }

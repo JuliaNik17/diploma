@@ -7,7 +7,10 @@ const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
     entry: {
-        main: './src/js/index.js'
+        // main: './src/js/index.js'
+        index: './src/js/index.js',
+        about: './src/js/about.js',
+        analytics: './src/js/analytics.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -43,9 +46,16 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'css/style.[contenthash].css'
+            filename: 'css/index.[contenthash].css'
         }),
-        
+
+        new MiniCssExtractPlugin({
+            filename: 'css/about.[contenthash].css'
+        }),
+        new MiniCssExtractPlugin({
+            filename: 'css/analytics.[contenthash].css'
+        }),
+
         new OptimizeCssAssetsPlugin({
             assetNameRegExp: /\.css$/g,
             cssProcessor: require('cssnano'),

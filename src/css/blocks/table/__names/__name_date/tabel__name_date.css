@@ -1,0 +1,28 @@
+.table__name_date {
+    flex-wrap: wrap;
+    width: 104px;
+}
+
+.table__name_date-month {
+    margin: 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .table__name_date {
+        margin-right: 13px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .table__name_date {
+        /*width: 20%;*/
+
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .table__name_date {
+        width: 20%;
+        margin-right: 16px;
+    }
+}

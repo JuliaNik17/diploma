@@ -1,9 +1,9 @@
+@import url(__name_date/tabel__name_date.css);
+
 .table__names {
     display: flex;
     flex-direction: row;
-    margin-top: 0;
-    margin-bottom: 24px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial, Serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -13,14 +13,10 @@
     color: #B6BCBF;
     list-style-type: none;
     padding-left: 0;
+    margin: 0 1040px 24px 104px;
 }
 
-.table__name_date {
-    flex-wrap: wrap;
-    /*width: 4%;*/
-    width: 104px;
-    /*margin-right: 50px;*/
-}
+
 
 @media screen and (max-width: 1439px) {
 
@@ -31,21 +27,35 @@
 }
 
 @media screen and (max-width: 1023px){
-
+    .table__names {
+        margin: 0 379px 23px 40px;
+    }
 
 }
 
-@media screen and (max-width: 767px){
-    .table__name_date {
-        /*width: 64px;*/
-        width: 20%;
-        margin-bottom: 8px;
+@media screen and (max-width: 673px) {
+    .table__names {
+        /*margin-right: 300px;*/
+        margin-right: auto;
     }
+}
+
+@media screen and (max-width: 603px) {
+    .table__names {
+        /*margin-right: 200px;*/
+    }
+}
+
+@media screen and (max-width: 767px){
+   .table__names {
+       /*margin: 0 48px 20px 16px;*/
+   }
+
 }
 
 
 @media screen and (max-width: 374px) {
     .table__names {
-
+        margin: 0 48px 20px 16px;
     }
 }

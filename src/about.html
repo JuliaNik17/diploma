@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Сервис для анализа происходящих в мире событий">
+    <meta name="author" content="Юлия Николаева">
     <title>NewsAnalyzer</title>
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.about.css %>">
 </head>
 <body>
 <header class="header__black">
@@ -34,24 +36,24 @@
         <div class="tech__container">
             <div class="tech__item">
                 <h3 class="tech__name">HTML</h3>
-                <img src="<%=require('./images/html.png')%>" class="tech__image" alt="эмблема HTML">
+                <img src="<%=require('./images/html.png')%>" class="tech__image" alt="HTML">
             </div>
             <div class="tech__item">
                 <h3 class="tech__name">CSS</h3>
-                <img src="<%=require('./images/css.png')%>" class="tech__image" alt="эмблема CSS">
+                <img src="<%=require('./images/css.png')%>" class="tech__image" alt="CSS">
             </div>
             <div class="tech__item">
                 <h3 class="tech__name">Java Script</h3>
-                <img src="<%=require('./images/js.png')%>" class="tech__image" alt="эмблема JS">
+                <img src="<%=require('./images/js.png')%>" class="tech__image" alt="JS">
             </div>
             <div class="tech__item">
                 <h3 class="tech__name">Webpack</h3>
-                <img src="<%=require('./images/webpack.png')%>" class="tech__image" alt="эмблема Webpack">
+                <img src="<%=require('./images/webpack.png')%>" class="tech__image" alt="Webpack">
             </div>
         </div>
     </div>
     <div class="author">
-        <img src="<%=require('./images/photo.jpg')%>" class="author__image" alt="фото автора">
+        <img src="<%=require('./images/photo.jpg')%>" class="author__image" alt="Автор Юлия Николаева">
         <div class="author__info">
             <h2 class="author__title">Об авторе</h2>
             <p class="author__text">Юлия Николаева. Начинающий фронтенд-разработчик. Владею HTML, CSS, Java Script, Webpack, Git, адаптивной кроссбраузерной версткой.</p>
@@ -70,7 +72,7 @@
                     <li class="glide__slide">
                         <div class="glide__card">
                             <p class="glide__card_date">14 августа, 2019</p>
-                            <img src="<%=require('./images/image-01.png')%>" class="glide__card_pic" alt="аватар">
+                            <img src="<%=require('./images/image-01.png')%>" class="glide__card_pic" alt="Антон Долинин">
                             <h3 class="glide__card_name">Антон Долинин</h3>
                             <p class="glide__card_email">anton@yandex.ru</p>
                             <p class="glide__card_text">Emmet (formerly Zen Coding) is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
@@ -79,7 +81,7 @@
                     <li class="glide__slide">
                         <div class="glide__card">
                             <p class="glide__card_date">14 августа, 2019</p>
-                            <img src="<%=require('./images/image-04.png')%>" class="glide__card_pic" alt="аватар">
+                            <img src="<%=require('./images/image-04.png')%>" class="glide__card_pic" alt="Мария Фёдорова">
                             <h3 class="glide__card_name">Мария Фёдорова</h3>
                             <p class="glide__card_email">mariiifed@yandex.ru</p>
                             <p class="glide__card_text">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools > Plugins > Available plugins   and find and install Emmet plugin.</p>
@@ -88,7 +90,7 @@
                     <li class="glide__slide">
                         <div class="glide__card">
                             <p class="glide__card_date">14 августа, 2019</p>
-                            <img src="<%=require('./images/image-03.png')%>" class="glide__card_pic" alt="аватар">
+                            <img src="<%=require('./images/image-03.png')%>" class="glide__card_pic" alt="Инга Иванова">
                             <h3 class="glide__card_name">Инга Иванова</h3>
                             <p class="glide__card_email">ingaiva@yandex.ru</p>
                             <p class="glide__card_text">With Emmet, you can type CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb...</p>
@@ -97,8 +99,8 @@
                 </ul>
             </div>
             <div class="glide__arrows" data-glide-el="controls">
-                <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
-                <button class="glide__arrow glide__arrow--right" data-glide-dir=">"> ></button>
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">&lt;</button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">"> &gt;</button>
             </div>
             <div class="glide__bullets" data-glide-el="controls[nav]">
                 <button class="glide__bullet" data-glide-dir="=0"></button>
@@ -121,8 +123,7 @@
     <li><a href="https://www.facebook.com/juli.shcherbinina" target="_blank" class="footer__social-link_fb"><img src="<%=require('./images/fb.png')%>" alt="fb icon"></a></li>
 </ul>
 </footer>
-    <script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
-<!--<script type="module" src="index.js"></script>-->
+<script type="module" src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
 <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 
 <script>

@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Сервис для анализа происходящих в мире событий">
+    <meta name="author" content="Юлия Николаева">
     <title>NewsAnalyzer</title>
-        <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+        <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.analytics.css %>">
 </head>
 <body>
 <header class="header__black">
@@ -27,7 +29,9 @@
     <div class="table">
         <h3 class="table__title">Аналитика по дням</h3>
         <ul class="table__names">
-            <li class="table__name_date">Дата (август)</li>
+            <li class="table__name_date">Дата
+                <p class="table__name_date-month">(август)</p>
+            </li>
             <li class="table__name_quantity">Кол-во упоминаний</li>
         </ul>
         <div class="table__line"></div>
@@ -89,7 +93,7 @@
         <li><a href="https://www.facebook.com/juli.shcherbinina" target="_blank" class="footer__social-link_fb"><img src="<%=require('./images/fb.png')%>" alt="fb icon"></a></li>
     </ul>
 </footer>
-<script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+<script type="module" src="<%= htmlWebpackPlugin.files.chunks.analytics.entry %>"></script>
 <!--<script type="module" src="index.js"></script>-->
 </body>
 </html>

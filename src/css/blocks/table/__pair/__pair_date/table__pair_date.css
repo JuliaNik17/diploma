@@ -1,5 +1,6 @@
 .table__pair_date {
     width: 104px;
+    font-family: 'Roboto', Arial, Serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -18,7 +19,7 @@
 
 @media screen and (max-width: 1023px){
     .table__pair_date {
-        /*width: ;*/
+
     }
 
 }

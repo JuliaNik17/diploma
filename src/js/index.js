@@ -1,23 +1,19 @@
 
 
-import "../css/index.css";
+import "../css/pages/index.css";
+const box = document.querySelector('.card__text'),
+    text = box.innerHTML,
+    clone = document.createElement('div');
 
-//import Glide from '@glidejs/glide'
+clone.style.position = 'absolute';
+clone.style.visibility = 'hidden';
+clone.style.width = box.clientWidth + 'px';
+clone.innerHTML = text;
+document.body.appendChild(clone);
 
-// new Glide('.glide').mount()
+var l = text.length - 1;
+for (; l >= 0 && clone.clientHeight > box.clientHeight; --l) {
+    clone.innerHTML = text.substring(0, l) + '...';
+}
 
-// var glide = new Glide('#intro', {
-//     // type: 'carousel',
-//     perView: 3,
-//     focusAt: 'center',
-//     breakpoints: {
-//         800: {
-//             perView: 2
-//         },
-//         480: {
-//             perView: 1
-//         }
-//     }
-// })
-
-// glide.mount()
+box.innerHTML = clone.innerHTML;

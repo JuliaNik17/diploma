@@ -7,24 +7,25 @@
 .table {
     width: 100%;
     background-color: #F5F6F7;
-    padding: 80px 104px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 1439px) {
     .table {
-        padding: 80px 96px;
+
     }
 }
 
 @media screen and (max-width: 1279px) {
     .table {
-        padding: 60px 80px;
+
     }
 }
 
 @media screen and (max-width: 1023px){
     .table {
-        padding: 40px 40px;
+
     }
 
 }
@@ -36,6 +37,6 @@
 
 @media screen and (max-width: 374px) {
     .table {
-        padding: 24px 16px;
+        /*padding: 24px 16px;*/
     }
 }
