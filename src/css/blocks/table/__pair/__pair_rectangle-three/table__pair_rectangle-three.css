@@ -1,0 +1,28 @@
+.table__pair_rectangle-three {
+    height: 24px;
+    width: 120px;
+    background-color: #2F71E5;
+    color: #FFFFFF;
+    margin-top: 5px;
+    font-family: 'Roboto', Serif, Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1439px) {
+    .table__pair_rectangle-three {
+        width: 8.3%;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .table__pair_rectangle-three {
+        width: 20%;
+    }
+}

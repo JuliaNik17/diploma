@@ -1,0 +1,30 @@
+@import url(../comment/__text/comment__text.css);
+@import url(../comment/__title/comment__title.css);
+@import url(../comment/__link/comment__link.css);
+
+.comment {
+    width: 100%;
+    background-color: #F5F6F7;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 374px) {
+
+}

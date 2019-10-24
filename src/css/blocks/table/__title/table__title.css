@@ -1,0 +1,36 @@
+.table__title {
+    font-family: 'Roboto Slab', Arial, Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    margin: 80px 104px 48px;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+    .table__title {
+        margin: 40px 40px 49px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+
+@media screen and (max-width: 374px) {
+    .table__title {
+        font-size: 22px;
+        line-height: 30px;
+        margin: 24px 16px;
+    }
+}

@@ -1,0 +1,38 @@
+.search-result__ment {
+    font-family: 'Roboto', Arial, Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 664px 80px 104px;
+}
+
+.search-result__ment_number {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+    .search-result__ment {
+        margin: 0 56px 40px 40px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 374px) {
+    .search-result__ment {
+        font-size: 16px;
+        margin: 0 16px 24px;
+    }
+}

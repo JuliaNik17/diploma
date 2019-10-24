@@ -1,0 +1,17 @@
+.not-found__text {
+    width: 356px;
+    font-family: 'Roboto', Serif, Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto 80px;
+    color: #B6BCBF;
+}
+
+@media screen and (max-width: 374px) {
+    .not-found__text {
+        width: calc(100% - 32px);
+    }
+}

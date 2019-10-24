@@ -1,0 +1,43 @@
+.header__link {
+    font-family: 'Roboto', Serif, Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #B6BCBF;
+    text-decoration: none;
+    flex-shrink: 0;
+    margin-left: 34px;
+    margin-bottom: 26px;
+}
+
+.header__link:hover {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+    .header__link {
+
+    }
+}
+
+@media screen and (max-width: 767px){
+    .header__link {
+        font-size: 16px;
+        margin-left: 11px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .header__link {
+        font-size: 14px;
+    }
+}

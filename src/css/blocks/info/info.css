@@ -1,0 +1,38 @@
+@import url(../info/__title/info__title.css);
+@import url(../info/__text/info__text.css);
+
+.info {
+    margin-top: 80px;
+    margin-left: 104px;
+    margin-bottom: 94px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+
+}
+
+@media screen and (max-width: 1023px){
+    .info {
+        width: calc(100% - 80px);
+        margin: 30px 40px 26px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 374px) {
+    .info {
+        width: calc(100% - 32px);
+        margin: 16px 16px;
+    }
+}

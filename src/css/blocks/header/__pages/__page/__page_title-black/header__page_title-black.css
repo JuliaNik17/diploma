@@ -1,0 +1,36 @@
+.header__page_title-black {
+    font-family: 'Roboto', Serif, Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+    margin-top: 0;
+    margin-bottom: 23px;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+    .header__page_title-black {
+
+    }
+}
+
+@media screen and (max-width: 767px){
+    .header__page_title-black {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .header__page_title-black {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,28 @@
+.table__pair_rectangle-six {
+    height: 24px;
+    width: 816px;
+    background-color: #2F71E5;
+    color: #FFFFFF;
+    margin-top: 5px;
+    font-family: 'Roboto', Serif, Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1439px) {
+    .table__pair_rectangle-six {
+        width: 55.5%;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .table__pair_rectangle-six {
+        width: 68%;
+    }
+}

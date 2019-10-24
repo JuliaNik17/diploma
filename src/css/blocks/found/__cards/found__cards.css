@@ -1,0 +1,46 @@
+@import url(__date/card__date.css);
+@import url(__title/card__title.css);
+@import url(__text/card__text.css);
+@import url(__source/card__source.css);
+@import url(__image/card__image.css);
+@import url(card/card.css);
+
+.found__cards {
+    width: 1232px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+    .found__cards {
+        width: calc(100% - 140px);
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .found__cards {
+        width: calc(100% - 96px);
+    }
+
+}
+
+@media screen and (max-width: 1023px){
+    .found__cards {
+        width: calc(100% - 80px);
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 374px) {
+    .found__cards {
+        width: 100%;
+    }
+}

@@ -1,0 +1,37 @@
+.search-result__title {
+    font-family: 'Roboto Slab', Arial, Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    margin: 80px 624px 0 104px;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+   .search-result__title {
+       font-size: 32px;
+       line-height: 34px;
+       margin: 64px 40px 0;
+   }
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 374px) {
+    .search-result__title {
+        font-size: 30px;
+        line-height: 34px;
+        margin: 0 16px;
+    }
+}

@@ -1,0 +1,30 @@
+@import url(__title/header__title_black.css);
+@import url(__title/header__title_white.css);
+@import url(../header/__pages/header__pages.css);
+@import url(../header/__link/header__link.css);
+@import url(__link_a/header__link_a.css);
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2)
+}
+
+.header__black {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: inset 0px -1px 0px #D1D2D6;
+}
+
+
+
+
+
+
+
+

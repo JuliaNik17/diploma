@@ -1,0 +1,28 @@
+.header__title_black {
+    color: #1A1B22;
+    font-family: 'Roboto Slab', Serif, Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 104px;
+}
+
+@media screen and (max-width: 1023px) {
+    .header__title_black {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__title_black {
+        font-size: 16px;
+        margin-left: 16px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .header__title_black {
+        font-size: 14px;
+    }
+}
