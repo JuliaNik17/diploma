@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 1023px) {
     .search__image {
+        /*height: 20vh;*/
     }
 }
 
@@ -23,8 +24,8 @@
 }
 
 @media screen and (max-width: 374px) {
-.search__image {
-
+    .search__image {
+        height: 100%;
 }
 }
 
