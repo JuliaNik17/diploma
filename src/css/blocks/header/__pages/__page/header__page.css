@@ -1,0 +1,13 @@
+@import url(__page_title-white/header__page_title-white.css);
+@import url(__page_title-black/header__page_title-black.css);
+
+
+
+
+.header__page_line-withe {
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.header__page_line-black {
+    border-bottom: 3px solid #1A1B22;
+}

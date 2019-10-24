@@ -1,0 +1,24 @@
+.search-result__nav {
+    font-family: 'Roboto', Arial, Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #B6BCBF;
+    margin: 40px 624px 0 104px;
+}
+
+@media screen and (max-width: 1023px) {
+    .search-result__nav {
+        margin: 32px 16px 0 40px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .search-result__nav {
+        z-index: -1;
+        margin: 0 0;
+        color: #FFFFFF;
+        height: 0;
+    }
+}

@@ -1,0 +1,42 @@
+@import url(__input/search__input.css);
+@import url(../__field/__field_button/search__field_button.css);
+
+.search__field {
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(8px);
+    border-radius: 100px;
+    margin: 0 auto 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1161px) {
+    .search__field {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .search__field {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .search__field {
+        width: calc(100% - 64px);
+        flex-direction: column;
+        margin-bottom: 0;
+        background-color: unset;
+        border: unset;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .search__field {
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+}

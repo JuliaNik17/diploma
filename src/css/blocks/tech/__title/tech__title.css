@@ -1,0 +1,49 @@
+.tech__title {
+    width: 344px;
+    font-family: 'Roboto Slab', Arial, Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1A1B22;
+    margin-top: 80px;
+    margin-left: 104px;
+    margin-bottom: 162px;
+}
+
+@media screen and (max-width: 1439px) {
+    .tech__title {
+        margin-left: 96px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .tech__title {
+        margin-left: 48px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .tech__title {
+        width: calc(100% - 432px);
+        font-size: 30px;
+        line-height: 34px;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 374px) {
+    .tech__title {
+        width: calc(100% - 32px);
+        font-size: 30px;
+        line-height: 40px;
+        margin: 32px 16px 40px;
+    }
+}

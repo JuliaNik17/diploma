@@ -1,0 +1,41 @@
+.found__title {
+    font-family: 'Roboto Slab', Serif, Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1A1B22;
+    margin: 0 0;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+   .found__title {
+       font-size: 30px;
+       line-height: 34px;
+   }
+}
+
+@media screen and (max-width: 767px){
+    .found__title {
+        margin-bottom: 16px;
+        font-size: 30px;
+        line-height: 34px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .found__title {
+        flex-wrap: wrap;
+        width: calc(100% - 32px);
+        text-align: start;
+        margin: 0 16px;
+    }
+}

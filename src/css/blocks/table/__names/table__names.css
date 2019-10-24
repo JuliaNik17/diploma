@@ -1,0 +1,61 @@
+@import url(__name_date/tabel__name_date.css);
+
+.table__names {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', Arial, Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 1040px 24px 104px;
+}
+
+
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+    .table__names {
+        margin: 0 379px 23px 40px;
+    }
+
+}
+
+@media screen and (max-width: 673px) {
+    .table__names {
+        /*margin-right: 300px;*/
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 603px) {
+    .table__names {
+        /*margin-right: 200px;*/
+    }
+}
+
+@media screen and (max-width: 767px){
+   .table__names {
+       /*margin: 0 48px 20px 16px;*/
+   }
+
+}
+
+
+@media screen and (max-width: 374px) {
+    .table__names {
+        margin: 0 48px 20px 16px;
+    }
+}

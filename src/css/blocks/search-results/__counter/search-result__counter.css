@@ -1,0 +1,40 @@
+.search-result__counter {
+    font-family: 'Roboto', Arial, Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 24px 624px 4px 104px;
+}
+
+.search-result__counter_number {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+    .search-result__counter {
+        margin: 24px 16px 4px 40px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 374px) {
+    .search-result__counter {
+        margin-top: 16px;
+        margin-bottom: 4px;
+        font-size: 16px;
+        margin: 16px 16px 4px;
+    }
+}

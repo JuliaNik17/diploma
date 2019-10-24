@@ -1,0 +1,37 @@
+@import url(../found/__text/found__text.css);
+@import url(../found/__title/found__title.css);
+@import url(../found/__link/found__link.css);
+@import url(../found/__cards/found__cards.css);
+@import url(__show-more_button/found__show-more-button.css);
+
+.found {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F6F7;
+    margin: 0 0;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+
+}
+
+@media screen and (max-width: 1023px){
+
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 374px) {
+
+}
+
+
+

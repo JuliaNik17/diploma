@@ -1,0 +1,38 @@
+.comment__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 72px 130px 64px 104px;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+    .comment__text {
+        margin: 40px 40px 32px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .comment__text {
+        flex-direction: column;
+        position: relative;
+        margin: 32px 16px 16px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .comment__text {
+        flex-direction: column;
+        position: relative;
+        margin: 32px 16px 16px;
+    }
+}

@@ -1,0 +1,39 @@
+.found__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 80px 130px 64px 104px;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px){
+    .found__text {
+        margin: 40px 66px 32px 40px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .found__text {
+        flex-direction: column;
+        margin: 32px auto 40px;
+        justify-content: unset;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .found__text {
+        margin: 32px 0 40px;
+        justify-content: flex-start;
+        align-items: start;
+        text-align: start;
+    }
+}
