@@ -1,15 +1,19 @@
 .search__input {
     width: 376px;
-    /*height: 22px;*/
-    font-family: 'Roboto';
+    font-family: 'Roboto', Serif, Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-    color: #B6BCBF;
     margin-left: 24px;
     border: 0;
 }
+
+.search__input:focus {
+    pointer-events: stroke;
+    color: #1A1B22;
+}
+
 
 @media screen and (max-width: 1023px) {}
 

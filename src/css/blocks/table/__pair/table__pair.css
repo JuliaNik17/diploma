@@ -10,6 +10,7 @@
 .table__pair {
     display: flex;
     flex-direction: row;
+    margin-left: 104px;
 }
 
 @media screen and (max-width: 1439px) {
@@ -22,18 +23,20 @@
 
 @media screen and (max-width: 1023px){
     .table__pair {
-        /*margin-bottom: 56px;*/
+        margin-left: 40px;
     }
 
 }
 
 @media screen and (max-width: 767px){
-
+    .table__pair {
+        /*margin-left: 16px;*/
+    }
 }
 
 
 @media screen and (max-width: 374px) {
     .table__pair {
-        /*margin-bottom: 24px;*/
+        margin-left: 16px;
     }
 }

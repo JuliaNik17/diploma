@@ -6,7 +6,7 @@
 
 .search-result {
     width: 100%;
-    padding: 0 104px 80px;
+    /*padding: 0 104px 80px;*/
 }
 
 @media screen and (max-width: 1439px) {
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 1023px){
     .search-result {
-        padding: 0 40px 40px;
+        /*padding: 0 40px 40px;*/
     }
 
 }
